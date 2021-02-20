@@ -1,0 +1,178 @@
+
+*
+{
+    margin: 0; 
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav_bar
+{
+    padding: 0px;
+    height: 50px;
+    background-color: #263E7B;
+    position: sticky;
+    top: 0;
+}
+
+.nav_bar li
+{
+    display:inline;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 30px;
+}
+
+.nav_btn li
+{
+    display: inline;
+    text-align: center;  
+    
+}
+
+.nav_btn a
+{
+    color: #FFFFFF; 
+    text-decoration: none;  
+}
+
+.textbar
+{
+    border: 0px; 
+    background-color: #FFFFFF;
+    padding: 10px;
+    width: 100%;
+    border: 0.5px solid #DDDDDD;  
+    border-radius: 5px;  
+}
+
+table, td, th
+{
+    padding: 15px;
+}
+  
+table 
+{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table th
+{
+    background-color: #263E7B; 
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px;
+}
+
+.Title
+{
+    font-size: 18px;
+    font-weight: 600;
+    color: #263E7B;
+    text-transform: uppercase;
+}
+
+.SectionBox
+{
+    width: 1250px;
+    background-color: #F4F4F4;
+    margin: 50px auto; 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.button 
+{
+    background-color: #263E7B;
+    color: white;
+    border: 1px solid #263E7B;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+
+.button:hover 
+{
+    background-color: #FFFFFF;
+    color: #263E7B;
+}
+
+.Footer
+{
+    background-color: #263E7B;
+    color: white;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+    padding: 20px;
+}
+
+.Footer li
+{
+    display: inline;
+    padding: 30px;
+}
+
+.Dropdown
+{
+    background-color: #FFFFFF;
+    width: 100%;    
+    height: 40px;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+}
+
+.parcelInput input
+{
+    background-color: white;
+    height: 45px;
+    width: 100%;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 15px 0px;
+}
+
+.TitleBig
+{
+    font-size: 48px;
+    font-weight: 700;
+    color: #263E7B;
+    padding: 15px;
+}
+
+.PicBanner
+{
+    margin: 50px auto;
+    background: white;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.PicBanner img
+{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    filter: brightness(85%) grayscale(70%);
+}
+
+.PicBanner_text
+{
+    text-align: center; 
+    color: white; 
+    font-size: 24px; 
+    font-weight: 500; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+

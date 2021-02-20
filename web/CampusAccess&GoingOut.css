@@ -1,0 +1,463 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*Building-Pic*/
+.building-pic
+{
+    margin: 60px 0px 10px 0px;
+    background: white;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.building-pic img
+{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+/*Campus-Pic*/
+.campus-pic
+{
+    margin: 60px 0px 10px 0px;
+    background: white;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.campus-pic img
+{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+/*Grey Layer Overlay On Top of Picture at Campus Access Page*/
+.overlay
+{
+    position: absolute;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    height: 200px;
+    left: 0px;
+    margin-left: 0;
+    border:0px;
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+
+/*Grey Layer Overlay On Top of Picture at Going Out Campus Page*/
+.overlay2
+{
+    position: absolute;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    height: 200px;
+    left: 0px;
+    margin-left: 0;
+    border:0px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+/*Section for Applying Campus Access/Checking Going Out List at Campus Access Page/List at Going Out Page*/
+.section1
+{
+    margin: 60px 0px 0px 0px;
+    height: 780px;
+    width: 100%;
+    position: relative;
+    padding: 0px;
+    background-color: #F4F4F4;
+    right: 1px;
+}
+
+
+/*Section for Checking Going Out List at Going Out Page*/
+.section2
+{
+    margin-top: 60px;
+    height: 530px;
+    width: 100%;
+    position: relative;
+    background-color: #F4F4F4;
+}
+
+
+/*Section for Reminding Blacklisted Status at Going Out Page*/
+.section3
+{
+    margin-top: 60px;
+    height: 900px;
+    width: 100%;
+    position: relative;
+    padding: 0px;
+    background-color: #F4F4F4;
+}
+
+
+/*Circle Element of Section's Logo*/
+.circle
+{
+    height: 60px;
+    width: 60px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 48%;
+    top: 50px;
+    filter: drop-shadow(0px 4px 3px #00000055);
+}
+
+
+/*Button with Blue Background Color*/
+.button
+{
+    background-color: #FFFFFF;
+    border: 1px solid #263E7B;
+    color: #263E7B;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/*Button with Blue Color Background*/
+.button1
+{
+  background-color: #263E7B;
+  color: white;
+  padding: 15px 32px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+/*Blue Color Background Turn White when Hover Over It*/
+.button1:hover
+{
+    background-color: #FFFFFF;
+    border: 1px solid #263E7B;
+    color: #263E7B;
+    padding: 15px 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+/*Button with White Color Background*/
+.button2
+{
+    background-color: #FFFFFF;
+    border: 1px solid #263E7B;
+    color: #263E7B;
+    padding: 10px 28px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+/*White Color Background Turn Blue when Hover Over It*/
+.button2:hover
+{
+  background-color: #263E7B;
+  color: white;
+  padding: 10px 28px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+/*Clickable Button*/
+.button3
+{
+    background-color: #FFFFFF;
+    border: 1px solid #263E7B;
+    color: #263E7B;
+    padding: 13px 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/*Stay as Blue Color Background After Clicked on It*/
+.button3:focus, .button3:active:focus
+{
+  background-color: #263E7B;
+  color: white;
+  padding: 13px 40px;
+  border: 1px solid #263E7B;
+  box-shadow: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+
+/*Menu Bar*/
+.nav_bar
+{
+    padding: 0px;
+    height: 50px;
+    background-color: #263E7B;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+/*Menu Bar Page Selection*/
+.nav_bar li
+{
+    display:inline;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 30px;
+}
+
+/*Menu Bar - Login and Register*/
+.nav_btn li
+{
+    display: inline;
+    text-align: center;
+}
+
+/*Menu Bar - Link of Login and Register*/
+.nav_btn a
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+/*Form - Nationality Options*/
+.custom-select
+{
+  position: relative;
+  padding: 10px 0px 10px 0px;
+}
+
+
+/*hide original SELECT element:*/
+.custom-select select
+{
+  display: none;
+}
+
+.select-selected {
+  background-color: #0A6EB4;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after
+{
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after
+{
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected
+{
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*style items (options):*/
+.select-items
+{
+  position: absolute;
+  background-color: DodgerBlue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide
+{
+
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected
+{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+/*Table*/
+table, td
+{
+    padding: 15px;
+}
+
+th
+{
+    padding: 5px;
+    white-space: nowrap;
+}
+
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-auto: 30px;
+}
+
+table th {background-color: #263E7B; color: white; font-size: 18px; font-family: 'Poppins', sans-serif; font-weight: 300;}
+
+table td {background-color: #FFFFFF; color: #000000; font-size: 20px; font-family: 'Poppins', sans-serif; font-weight: 300;}
+
+
+/*Blue Line at Going Out Admin*/
+.line
+{
+    border-bottom: 1px solid #0A6EB4;
+    width: 628%;
+    height: 10px;
+    position: relative;
+    margin-top: 80px;
+    text-align: center;
+    margin-left: -50px;
+}
+
+/*Blue Line at Going Out 3 and Blacklist 3*/
+.line1
+{
+    border-bottom: 1px solid #0A6EB4;
+    width: 100%;
+    height: 10px;
+    position: relative;
+    margin-top: 5%;
+}
+
+
+/*Blue Line at Going Out Admin*/
+.line2
+{
+    border-bottom: 1px solid #0A6EB4;
+    width: 360%;
+    height: 10px;
+    position: relative;
+    margin-top: 80px;
+    text-align: center;
+    margin-left: -50px;
+}
+
+/*Blue Line at Campus Access Admin*/
+.line3
+{
+    border-bottom: 1px solid #0A6EB4;
+    width: 490%;
+    height: 10px;
+    position: relative;
+    margin-top: 80px;
+    text-align: center;
+    margin-left: -50px;
+}
+
+/*"Success" in Red Color at Going Out 3*/
+r
+{
+    color: #FF0000;
+    font-weight: 500px;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Icon Color: Red*/
+.material-icons.red { color: #FF0000; }
+
+/*Icon Color: Blue*/
+.material-icons.blue { color: #263E7B; font-size: 28px;  float: left; padding: 0px 2px 0px 5px; filter: drop-shadow(0px 4px 3px #00000055);}
+
+/*Icon Color: Grey*/
+.material-icons.grey { color: #656565; font-size: 28px;  float: left; padding: 0px 2px 0px 5px;}
+
+
+/*Footer*/
+.Footer
+{
+    background-color: #263E7B;
+    color: white;
+    position: absolute;
+    bottom:0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    padding: 20px;
+}
+
+.Footer li
+{
+    display: inline;
+    padding: 30px;
+}
+
+
+/*Information at Blacklist 3*/
+.SI1{ padding: 10px 0px 10px 0px;}
+
+/*Input at Blacklist 3*/
+.SI2{ width:400px; height: 2em; border: 1px solid #263E7B; border-radius: 3px;}
+
+/*Title at Blacklist 3*/
+.edit{ padding: 100px 0px 0px 0px; font-weight: 800; font-size: 28px; color: #263E7B}
+
+
+/*Form at Campus Access 2 and Going Out 2*/
+.f{ vertical-align: top; padding: 10px 0px 10px 0px;}
+
+
+.input{ width:700px; height: 2em; border: 1px solid #263E7B; border-radius: 3px}
+
+
+m
+{ display: inline-block; padding: 0px 8px 0px 8px; }
+
+/*Animated Icon at Going Out 1.1*/
+#div1 { font-size:38px; }
+
+/*Countdown at Campus Access Edit and Going Out Edit*/
+p {
+    text-align: right;
+    font-size: 16px;
+    margin-top: 0px;
+    border-width: 100%;
+    background-color: #373F52;
+    color: red;
+    padding: 10px 30px 10px 10px;
+    font-weight: 700;
+}

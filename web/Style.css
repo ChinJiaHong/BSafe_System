@@ -1,0 +1,462 @@
+
+*
+{
+    margin: 0px; 
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+table
+{
+    counter-reset:section;
+}
+
+.count::before{
+    counter-increment: section;
+    content: counter(section)'.';
+}
+
+
+.nav_bar
+{
+    margin-top: 10px;
+    padding: 0px;
+    height: 50px;
+    background-color: #263E7B;
+
+
+}
+
+.nav_bar li
+{
+    display:inline;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 30px;
+}
+
+.nav_btn li
+{
+    display: inline;
+    text-align: center;    
+}
+
+.nav_btn a
+{
+    color: #FFFFFF; 
+}
+
+.notice
+{
+    width:1228px; 
+    height:55px; 
+    background:#263E7b; 
+    border-radius: 25px;
+}
+
+
+.textbar
+{
+    width: 250px; 
+    border: 0px; 
+    background-color: #EEEEEE;
+    font-size: 1.2em;
+    width: 800px;
+}
+
+.buttona
+{
+    background-color: #263E7B;
+    width: 100px;
+    margin: 0px auto;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: hand;
+}
+
+.button a
+{
+    color: white;
+    font-weight: 600;
+}
+
+table, td, th
+{
+    padding: 15px;
+}
+  
+table 
+{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table th {background-color: #263E7B; color: white;}
+
+
+.notice
+{
+    width:1228px; 
+    height:55px; 
+    left: 0px; 
+    top:0px; 
+    background:#263E7b; 
+    border-radius: 25px;
+}
+
+.box
+{
+    margin:11.7px;
+    padding:20px;
+    border: 2px solid #263E7B; 
+    width:383px; 
+    height:250px; 
+    background: #FFFFFF; 
+    box-sizing: border-box;
+    border-radius:25px;
+    display:inline-block;
+}
+
+.textbox
+{
+    margin-top:20px; 
+    width: 340px;
+    height: 43px;
+    left: 38px;
+    top: 186px; 
+    background: #263E7B;
+    border-radius: 5px;
+}
+
+
+.buttonc{
+    background-color: #FFFFFF;
+    border: 1px solid #263E7B;
+    color: #263E7B;
+    text-align: center;
+    display: inline-block;
+    margin-top:30px;
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.button1 {
+    background-color: #FFFFFF;
+    border: 1px solid #263E7B;
+    color: #263E7B;
+    width:160px;
+    height:50px;
+    float: right;
+}
+
+
+.button1:hover {
+  background-color: #263E7B;
+  color: white;
+
+}
+
+
+.img
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.pagination {
+    display: inline-block;
+
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .pagination a.active {
+    background-color:#263E7B;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+
+
+
+
+
+.btn-group button {
+    background-color: white; /* Green background */
+    border: 1px solid #263E7B; /* Green border */
+    color: #263E7B; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 10px;
+    height:60px;
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+ /* .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders 
+  }
+  */
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color:#263E7B;
+    color: white;
+  }
+
+
+
+  .buttonjh2 {
+    background-color: #FFFFFF;
+    border: 1px solid #263E7B;
+    color: #263E7B;
+    padding: 10px 28px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.editbutton
+{
+    background-color: white;
+    border: 1px solid #263E7B;
+    margin: 0px auto;
+    color: #263E7B;
+    border-radius: 10px;
+    text-align: center;
+    cursor: hand;
+    width: 100px;
+    height:40px;
+}
+
+
+
+.editbutton:hover {
+  background-color: #263E7B;
+  color: white;
+}
+
+.delete
+{
+    color: red;
+}
+
+.publish
+{
+    color: blue;
+}
+
+.edit.hover,
+.delete.hover,
+.publish.hover{
+    text-decoration: underline;
+}
+
+.bx1{ 
+	overflow:hidden;
+	opacity:1;
+	width:250px;
+	height:250px;
+	position:absolute;
+}
+.bx2 { 
+	overflow:hidden;
+	width: 250px;
+    height: 250px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius:25px;
+}
+.bx3 { 
+	opacity:1;
+	width:238px;
+	height:194px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius:25px;
+}
+.bx4 {
+	opacity:1;
+	width:324px;
+	height:100%;
+	position:absolute;
+	left:-62px;
+	top:0px;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.managePost td
+{
+    padding: 25px;
+}
+
+
+
+.login td
+{
+    padding: 10px;
+}
+.login
+{
+    margin-top:20px;
+    text-align: left;
+}
+
+
+.Footer
+{
+    background-color: #263E7B;
+    color: white;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    margin-top: 80px;
+}
+
+.Footer li
+{
+    display: inline;
+    padding: 30px;
+}
+
+.SectionBox
+{
+    width: 1250px;
+    background-color: #F4F4F4;
+    margin: 50px auto; 
+    padding: 20px;
+}
+.sInput input
+{
+    background-color: white;
+    height: 45px;
+    width:93%;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 15px 0px;
+}
+.Title
+{
+    font-size: 18px;
+    font-weight: 600;
+    color: #222222;
+    text-transform: uppercase;
+}
+
+.buttonx
+{
+    background-color: #263E7B;
+    color: white;
+    border: 1px solid #263E7B;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+
+.btnx:hover {
+    background-color: #263E7B;
+    color: white;
+  }
+
+.btnx{
+    background-color: #FFFFFF;
+    border: 1px solid #263E7B;
+    height: 50px;
+    width: 100px;
+    padding: 15px 15px;
+    color: #263E7B;
+    text-align: center;
+    margin: 7px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btnq{
+    background-color: #FFFFFF;
+    border: 1px solid #263E7B;
+    height: 24px;
+    width: 100px;
+    padding: 15px 15px;
+    color: #263E7B;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btnq:hover{
+    background-color: #263E7B;
+    color: white;
+}
+
+
+
+
+
+.btnx:hover 
+{
+    background-color: #263E7B;
+    color: white;
+}
+
+
+.bigbox
+{
+    
+    padding:15px 10px;
+    height:200px;
+    width:93%; 
+    border: 0.5px solid grey;
+    border-radius: 5px; 
+    resize: none; 
+}
+
+.register
+{
+    margin:25px auto; 
+    width:400px; 
+    border:2px solid #263E7B;
+}
+
+
+
+
+
+
+        
