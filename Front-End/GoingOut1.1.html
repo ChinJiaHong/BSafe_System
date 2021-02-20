@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Going Out Campus Main Page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CampusAccess&GoingOut.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <div style="margin-left: 50px; margin-top: 10px;">
+        <img src ="Logo.png" height="50px;">
+    </div>
+
+    <div class="nav_bar" style="margin-top: 10px;">
+        <div style="padding: 12px 0px 0px 30px; display:inline-block">
+            <ul>
+                <li>MAIN</li>
+                <li>ACCESS</li>
+                <li>GOING OUT</li>
+                <li>PARCEL</li>
+            </ul>
+        </div>
+
+        <div class="nav_btn" style="float:right; padding: 12px; cursor: hand;">
+            <li><a href="#">LOGIN</a></li>
+            <li><a href="#">REGISTER</a></li>
+        </div>
+    </div>
+    <!-- End of Header -->
+
+    <div>
+        <p id="demo" ></p>
+        <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Jan 31, 2021 15:37:25").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+
+        // Get today's date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Output the result in an element with id="demo"
+        document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+
+        // If the count down is over, write some text
+           if (distance < 0) {
+                clearInterval(x);
+           document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+        }, 1000);
+</script>
+        <div style="position: relative; top: -35px; left: 30px; color: white; font-weight: 500px">Remaining Time In The Blacklist:</div>
+    </div>
+
+    <!-- Check Going Out List -->
+    <div class="campus-pic">
+        <img src="XMUM.jpg">
+        <div class="overlay2" style="top: 0%">
+            <div style="text-align: center; color: white; font-size: 24px; font-family: 'Poppins', sans-serif; font-weight: 500; padding: 6px; margin-top: 50px;">
+                On-campus Students Going Out Campus
+            </div>
+            <div style="color: white; font-size: 18px; font-family: 'Poppins', sans-serif; font-weight: 300; text-align: center; padding-top: 6px;">
+                Prior application is required starting from 01.11.2020 until further notice
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section2">
+        <div class="circle">
+        </div>
+
+        <div style="position: absolute; right: 48.5%; top: 55px;">
+            <img src="logo2.png" height="45px" width="45px"/>
+        </div>
+
+        <div style="position: relative; top: 120px; color: #006EA5; font-weight: 500; font-family: 'Poppins', sans-serif; font-size: 22px; text-align: center;">
+            Approved Going Out List
+        </div>
+
+        <div style="position: relative; left: 37%; margin-top: 17%; display: inline-block"><input type="text" style="width:300px; height: 3.2em; border: 1px solid #263E7B; border-radius: 3px;"/></div>
+        <button class="button button2" style="position: relative; left: 38%;  margin: auto; margin-top: 17%;">
+            Check
+        </button>
+    </div>
+    <!--End of Check Going Out List -->
+
+    <!-- Restricted from Apply Going Out -->
+    <div class="section3">
+        <div class="circle">
+        </div>
+
+        <div style="position: absolute; right: 48.5%; top: 58px;">
+            <img src="logo3.png" height="45px" width="45px"/>
+        </div>
+
+        <div style="position: relative; top: 120px; color: #006EA5; font-weight: 500; font-family: 'Poppins', sans-serif; font-size: 22px; text-align: center;">
+            Application
+        </div>
+
+        <div style="height: 200px; background-color: #FFFFFF; position:relative; top: 120px; margin:100px auto; width:1300px">
+            <div style="font-family: 'Poppins', sans-serif;">
+                <div style="font-weight: 300; font-size: 18px; text-align: center; color: #006EA5; padding: 8px;">
+                    Rules and Regulation
+                </div>
+                <div style="font-weight: 500; font-size: 14px; text-align: left; color: #222020; padding: 15px;">
+                    lorem ipsum
+                </div>
+            </div>
+
+
+            <button class="button button1" style="position: relative; left: 86.6%; margin-top: 30px">
+                Read More
+            </button>
+        </div>
+
+        <div>
+            <div style="border-radius: 10px; height: 180px; background-color: #FFFFFF; position:relative; top: 120px; margin:100px auto; width:1300px">
+                    <div id="div1" class="fa" style="transform:translate(55px, 60px)"></div>
+                    <script>
+                        function hourglass() {
+                        var a;
+                        a = document.getElementById("div1");
+                        a.innerHTML = "&#xf251;";
+                        setTimeout(function () {
+                        a.innerHTML = "&#xf252;";
+                        }, 1000);
+                        setTimeout(function () {
+                        a.innerHTML = "&#xf253;";
+                        }, 2000);
+                        }
+                        hourglass();
+                        setInterval(hourglass, 3000);
+                    </script>
+                    <div style="font-weight: 600; font-size: 20px; position: relative; right: -100px; top: 20px; color: #222020; padding: 8px;">
+                        STATUS
+                    </div>
+                    <div style="font-weight: 500; font-size: 14px; position: relative; right: -40px; top: 18px; color: #818181; padding: 15px;">
+                        You had been blackedlisted and are not allowed to apply for going out campus at this moment. Your remaining time in the blacklist is 29 days.
+                    </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- End of Restricted from Apply Going Out -->
+
+    <!--Footer-->
+    <div class="Footer" style="margin-top: 80px;">
+        <div style="margin: 20px; font-size: 1.2em; font-weight: 600;">
+            XIAMEN UNIVERSITY MALAYSIA
+        </div>
+
+        <div style="margin: 20px;">
+            <ul>
+                <li>Main</li>
+                <li>Access</li>
+                <li>Going Out</li>
+                <li>Parcel</li>
+            </ul>
+        </div>
+    </div>
+<!--End of Footer-->
+
+</body>
+</html>
